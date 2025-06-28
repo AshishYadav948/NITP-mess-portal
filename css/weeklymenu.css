@@ -1,0 +1,96 @@
+/* weeklymenu.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(nitpimage.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e8f5e9;
+}
+
+header {
+    background-color: #81C784;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #66BB6A;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #2E7D32;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #66BB6A;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #66BB6A;
+}
+
+tr:hover {
+    background-color:#66BB6A;
+}
+
+footer {
+    background-color: #66BB6A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}

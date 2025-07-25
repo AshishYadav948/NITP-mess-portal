@@ -25,7 +25,7 @@ A responsive frontend prototype for hostel mess operations at NIT Patna, designe
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript  
-- **Deployment:** Netlify  
+- **Deployment:** Netlify:  https://nitp-mess-portal.netlify.app/
 - **UI/UX Tools:** Handcrafted design, responsive layout techniques, icons and banners for visual clarity
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
